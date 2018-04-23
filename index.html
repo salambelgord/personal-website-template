@@ -12,7 +12,7 @@
     <title>FAQ - IoBroker</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
@@ -220,12 +220,46 @@
                         <div class="modal-body">
                             <h2>Умный дом</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/smartH.png" class="img-responsive img-centered" alt="">
-                            <p>Системы автоматизаци,на которых можно построить управление:<br/> OpenHab, MajorDoMo, Home Assistant, Domoticz, HomeBridge.<br/>
-                            Сегодня, расскажем об одной из них — <a href="http://iobroker.net/">ioBroker</a>. =====> <a href="https://www.indahomekit.ru/2018/03/26/iobroker-v-otkrtaya-sistema-avtomatizatsii/">Статья</a>
-                            
+                            <img src="img/portfolio/smartH.png" class="img-responsive img-centered" alt="Умный дом.">
+                             <p  class="text-left">Некоторые системы автоматизаци,на которых можно построить управление:<br/>                            
+								<a href="http://www.openhab.org/">OpenHab</a><br/>
+								<a href="https://majordomo.smartliving.ru/">MajorDoMo</a><br/>
+								<a href="https://www.home-assistant.io/">Home Assistant</a><br/>
+								<a href="http://www.domoticz.com/">Domoticz</a><br/>
+								<a href="http://homebridge.ru/">HomeBridge</a>
+							
+                               <br/>
+                            Рассмотрим одну из них, это — <a href="http://iobroker.net/">ioBroker</a>. <br/>Читать <a href="https://www.indahomekit.ru/2018/03/26/iobroker-v-otkrtaya-sistema-avtomatizatsii/">статью.</a><br/><a href="http://www.iobroker.net/docu/?page_id=2630&lang=ru">Установка</a> <b>IoBroker</b> на различные ОС, (Linux,Raspbian,Windows..) <br/><a href="https://forum.iobroker.net/viewtopic.php?f=25&t=7245">Установка IoBroker в докере Xpenology</a><br/>
+                            <a href="https://github.com/ioBroker/ioBroker/wiki/Console-commands">Список консольных команд.</a><br/>
                             </p>
-                            <ul class="list-inline item-details">
+                            <h3>При установке важно следующее:</h3>
+                            
+                           <blockquote class="quote-box">
+      <p class="quotation-mark">
+        ❗️
+      </p>
+      <p class="quote-text">
+        Все консольные команды необходимо выполнять из каталога, где установлен <b>IoBroker</b> <br/><br/> Например:
+      </p>
+        <div class="blog-post-actions">
+        <p class="blog-post-bottom pull-left">
+         <code>root@pc2i:/opt/iobroker# iobroker stop</code> 
+        </p>        
+      </div>
+    </blockquote>
+                  <h3>Как установить версию latest ?</h3>  
+                         
+                    <img src="img/portfolio/latest.jpg" class="img-responsive img-centered" alt="latest">       
+                           
+           <h3>Как переключить драйвер в debug ?</h3>  
+                         
+                    <img src="img/portfolio/debug.jpg" class="img-responsive img-centered" alt="latest">                  
+                            
+                            
+             <h3>Как установить c github ?</h3>  
+                         
+                    <img src="img/portfolio/git.jpg" class="img-responsive img-centered" alt="latest">  <br/>
+                    <ul class="list-inline item-details">                
                                 <li>Автор:
                                     <strong><a href="https://salambelgord.github.io/">Вадим</a>
                                     </strong>
@@ -258,31 +292,38 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Железо для УД.</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/icp.jpg" class="img-responsive img-centered" alt="">
-                            <p  class="lr">
-                            	Список железных контролеров
-<ol >
-	<li> <a href="https://ab-log.ru/">MegaD-328, MegaD-2561 </a><br/></li>
-	<li> <a href="http://reavisor.ru/">Reavisor RH-SMART </a><br/></li>
-	<li> <a href="https://contactless.ru/">Wiren Board </a><br/></li>
-	<li> <a href="https://blog.instalator.ru/archives/657">LC-2560 by instalator</a> (+реле на дин-рейку)<br/></li>
-	<li> <a href="http://www.kernelchip.ru/Product.php">Laurent</a><br/></li>
-	<li> <a href="https://denkovi.com/">Denkovi</a></li>
-</ol>
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                           
+                            	<h3>Список железных контролеров</h3>
+<p class="class="text-left"">
+	 <a href="https://ab-log.ru/">MegaD-328, MegaD-2561 </a><br/>
+	 <a href="http://reavisor.ru/">Reavisor RH-SMART </a><br/>
+	 <a href="https://contactless.ru/">Wiren Board </a><br/>
+	 <a href="https://blog.instalator.ru/archives/657">LC-2560 by instalator</a> (+реле на дин-рейку)<br/>
+	 <a href="http://www.kernelchip.ru/Product.php">Laurent</a><br/>
+	 <a href="https://denkovi.com/">Denkovi</a><br/><br/>
+
+                            
+                            
+                           <a href="http://4pda.ru/forum/index.php?showtopic=872563&st=0#Spoil-67341935-2"> <h3>Как прошить Sonoff?</h3></a><br/>
+                           <a href="http://radioprog.ru/post/185"><h3>Как подключить термистор NTC к Arduino?</h3></a><br/>
+                           <a href="https://github.com/bondrogeen/DoT"><h3>Вебсервер для NodeMCU ESP8266 lua </h3></a>
+                           
+                            
+ </p>                           
+                           <ul class="list-inline item-details">                
+                                <li>Автор:
+                                    <strong><a href="https://salambelgord.github.io/">Вадим</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <li>Дата:
+                                    <strong><a href="https://salambelgord.github.io/">Апрель 2018</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Тэги:
+                                    <strong><a href="https://salambelgord.github.io/">#smarthome</a>
                                     </strong>
                                 </li>
                             </ul>
